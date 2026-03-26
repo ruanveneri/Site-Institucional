@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: grid;
+}
+
+
+nav {
+    height: 70px;
+    background: linear-gradient(to right, #3F64C9, #0D349F);
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, auto);
+    padding: 10px;
+    align-items: center;
+}
+
+nav img {
+    height: 40px;
+    width: auto;
+}
+
+.cursos {
+    font-size: 43px;
+    color: rgb(19, 22, 125);
+}
+
